@@ -1,0 +1,47 @@
+button{
+  width: 3em;
+  height: 3em;
+  font-size: 1.5em;
+  border: none;
+  border-radius: 50%;
+  
+  margin: 0.3em;
+  cursor: pointer;
+
+}
+.result{
+  font-size: 6em;
+  text-align: end;
+  padding-right: 0.2em;
+  margin-bottom: 0.2em;
+}
+.wrapper{
+  border-radius: 1em;
+  color: #fff;
+  background-color: black;
+}
+
+.container{
+  background-color: black;
+  border-radius: 1em;
+  text-align: center;
+  padding: 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  
+}
+.zero{
+  width: auto;
+  border-radius: 1.8em;
+ 
+  grid-column: span 2;}
+
+.operator{
+  background-color: #ff9500;
+  color: #fff;
+}
+
+.numbers{
+ background-color: #505050;
+ color: #fff;
+}
